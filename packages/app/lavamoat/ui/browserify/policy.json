@@ -1,0 +1,1115 @@
+{
+  "resources": {
+    "@metamask/controllers>nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "@metamask/controllers>web3": {
+      "globals": {
+        "XMLHttpRequest": true
+      }
+    },
+    "@metamask/controllers>web3-provider-engine>cross-fetch>node-fetch": {
+      "globals": {
+        "fetch": true
+      }
+    },
+    "@metamask/controllers>web3-provider-engine>eth-json-rpc-middleware>node-fetch": {
+      "globals": {
+        "fetch": true
+      }
+    },
+    "@metamask/logo": {
+      "globals": {
+        "addEventListener": true,
+        "document.body.appendChild": true,
+        "document.createElementNS": true,
+        "innerHeight": true,
+        "innerWidth": true,
+        "requestAnimationFrame": true
+      },
+      "packages": {
+        "@metamask/logo>gl-mat4": true,
+        "@metamask/logo>gl-vec3": true
+      }
+    },
+    "@metamask/rpc-methods>nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "@metamask/smart-transactions-controller>@metamask/controllers>nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "@metamask/snap-controllers>nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "@sentry/browser": {
+      "globals": {
+        "XMLHttpRequest": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "@sentry/browser>@sentry/core": true,
+        "@sentry/browser>tslib": true,
+        "@sentry/types": true,
+        "@sentry/utils": true
+      }
+    },
+    "@sentry/browser>@sentry/core": {
+      "globals": {
+        "clearInterval": true,
+        "console.warn": true,
+        "setInterval": true
+      },
+      "packages": {
+        "@sentry/browser>@sentry/core>@sentry/hub": true,
+        "@sentry/browser>@sentry/core>@sentry/minimal": true,
+        "@sentry/browser>@sentry/core>tslib": true,
+        "@sentry/utils": true
+      }
+    },
+    "@sentry/browser>@sentry/core>@sentry/hub": {
+      "globals": {
+        "clearInterval": true,
+        "setInterval": true
+      },
+      "packages": {
+        "@sentry/browser>@sentry/core>@sentry/hub>tslib": true,
+        "@sentry/utils": true
+      }
+    },
+    "@sentry/browser>@sentry/core>@sentry/hub>tslib": {
+      "globals": {
+        "define": true
+      }
+    },
+    "@sentry/browser>@sentry/core>@sentry/minimal": {
+      "packages": {
+        "@sentry/browser>@sentry/core>@sentry/hub": true,
+        "@sentry/browser>@sentry/core>@sentry/minimal>tslib": true
+      }
+    },
+    "@sentry/browser>@sentry/core>@sentry/minimal>tslib": {
+      "globals": {
+        "define": true
+      }
+    },
+    "@sentry/browser>@sentry/core>tslib": {
+      "globals": {
+        "define": true
+      }
+    },
+    "@sentry/browser>tslib": {
+      "globals": {
+        "define": true
+      }
+    },
+    "@sentry/electron": {
+      "globals": {
+        "__SENTRY_IPC__": true,
+        "__SENTRY__RENDERER_INIT__": "write",
+        "console.error": true,
+        "fetch": true
+      },
+      "packages": {
+        "@sentry/browser": true,
+        "@sentry/browser>@sentry/core": true,
+        "@sentry/electron>tslib": true,
+        "@sentry/types": true,
+        "@sentry/utils": true,
+        "addons-linter>deepmerge": true
+      }
+    },
+    "@sentry/electron>tslib": {
+      "globals": {
+        "define": true
+      }
+    },
+    "@sentry/utils": {
+      "globals": {
+        "CustomEvent": true,
+        "DOMError": true,
+        "DOMException": true,
+        "Element": true,
+        "ErrorEvent": true,
+        "Event": true,
+        "Headers": true,
+        "Request": true,
+        "Response": true,
+        "XMLHttpRequest.prototype": true,
+        "__SENTRY_BROWSER_BUNDLE__": true,
+        "clearTimeout": true,
+        "console.error": true,
+        "document": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "@sentry/types": true,
+        "@sentry/utils>tslib": true,
+        "browserify>process": true
+      }
+    },
+    "@sentry/utils>tslib": {
+      "globals": {
+        "define": true
+      }
+    },
+    "@storybook/api>regenerator-runtime": {
+      "globals": {
+        "regeneratorRuntime": "write"
+      }
+    },
+    "@storybook/api>util-deprecate": {
+      "globals": {
+        "console.trace": true,
+        "console.warn": true,
+        "localStorage": true
+      }
+    },
+    "addons-linter>sha.js": {
+      "packages": {
+        "hdkey>safe-buffer": true,
+        "pumpify>inherits": true
+      }
+    },
+    "bn.js": {
+      "globals": {
+        "Buffer": true
+      },
+      "packages": {
+        "browserify>browser-resolve": true
+      }
+    },
+    "browserify>assert": {
+      "globals": {
+        "Buffer": true
+      },
+      "packages": {
+        "browserify>assert>util": true,
+        "react>object-assign": true
+      }
+    },
+    "browserify>assert>util": {
+      "globals": {
+        "console.error": true,
+        "console.log": true,
+        "console.trace": true,
+        "process": true
+      },
+      "packages": {
+        "browserify>assert>util>inherits": true,
+        "browserify>process": true
+      }
+    },
+    "browserify>browser-resolve": {
+      "packages": {
+        "ethjs-query>babel-runtime>core-js": true
+      }
+    },
+    "browserify>buffer": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "base64-js": true,
+        "browserify>buffer>ieee754": true
+      }
+    },
+    "browserify>crypto-browserify": {
+      "packages": {
+        "browserify>crypto-browserify>browserify-cipher": true,
+        "browserify>crypto-browserify>browserify-sign": true,
+        "browserify>crypto-browserify>create-ecdh": true,
+        "browserify>crypto-browserify>create-hmac": true,
+        "browserify>crypto-browserify>diffie-hellman": true,
+        "browserify>crypto-browserify>pbkdf2": true,
+        "browserify>crypto-browserify>public-encrypt": true,
+        "browserify>crypto-browserify>randomfill": true,
+        "ethereumjs-util>create-hash": true,
+        "ethereumjs-wallet>randombytes": true
+      }
+    },
+    "browserify>crypto-browserify>browserify-cipher": {
+      "packages": {
+        "browserify>crypto-browserify>browserify-cipher>browserify-des": true,
+        "browserify>crypto-browserify>browserify-cipher>evp_bytestokey": true,
+        "ethereumjs-util>ethereum-cryptography>browserify-aes": true
+      }
+    },
+    "browserify>crypto-browserify>browserify-cipher>browserify-des": {
+      "packages": {
+        "browserify>buffer": true,
+        "browserify>crypto-browserify>browserify-cipher>browserify-des>des.js": true,
+        "ethereumjs-util>create-hash>cipher-base": true,
+        "pumpify>inherits": true
+      }
+    },
+    "browserify>crypto-browserify>browserify-cipher>browserify-des>des.js": {
+      "packages": {
+        "hdkey>secp256k1>elliptic>minimalistic-assert": true,
+        "pumpify>inherits": true
+      }
+    },
+    "browserify>crypto-browserify>browserify-cipher>evp_bytestokey": {
+      "packages": {
+        "ethereumjs-util>create-hash>md5.js": true,
+        "hdkey>safe-buffer": true
+      }
+    },
+    "browserify>crypto-browserify>browserify-sign": {
+      "packages": {
+        "bn.js": true,
+        "browserify>buffer": true,
+        "browserify>crypto-browserify>create-hmac": true,
+        "browserify>crypto-browserify>public-encrypt>browserify-rsa": true,
+        "browserify>crypto-browserify>public-encrypt>parse-asn1": true,
+        "browserify>stream-browserify": true,
+        "ethereumjs-util>create-hash": true,
+        "hdkey>secp256k1>elliptic": true,
+        "pumpify>inherits": true
+      }
+    },
+    "browserify>crypto-browserify>create-ecdh": {
+      "packages": {
+        "bn.js": true,
+        "browserify>buffer": true,
+        "hdkey>secp256k1>elliptic": true
+      }
+    },
+    "browserify>crypto-browserify>create-hmac": {
+      "packages": {
+        "addons-linter>sha.js": true,
+        "ethereumjs-util>create-hash": true,
+        "ethereumjs-util>create-hash>cipher-base": true,
+        "ethereumjs-util>create-hash>ripemd160": true,
+        "hdkey>safe-buffer": true,
+        "pumpify>inherits": true
+      }
+    },
+    "browserify>crypto-browserify>diffie-hellman": {
+      "packages": {
+        "bn.js": true,
+        "browserify>buffer": true,
+        "browserify>crypto-browserify>diffie-hellman>miller-rabin": true,
+        "ethereumjs-wallet>randombytes": true
+      }
+    },
+    "browserify>crypto-browserify>diffie-hellman>miller-rabin": {
+      "packages": {
+        "bn.js": true,
+        "hdkey>secp256k1>elliptic>brorand": true
+      }
+    },
+    "browserify>crypto-browserify>pbkdf2": {
+      "globals": {
+        "crypto": true,
+        "process": true,
+        "queueMicrotask": true,
+        "setImmediate": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "addons-linter>sha.js": true,
+        "browserify>process": true,
+        "ethereumjs-util>create-hash": true,
+        "ethereumjs-util>create-hash>ripemd160": true,
+        "hdkey>safe-buffer": true
+      }
+    },
+    "browserify>crypto-browserify>public-encrypt": {
+      "packages": {
+        "bn.js": true,
+        "browserify>buffer": true,
+        "browserify>crypto-browserify>public-encrypt>browserify-rsa": true,
+        "browserify>crypto-browserify>public-encrypt>parse-asn1": true,
+        "ethereumjs-util>create-hash": true,
+        "ethereumjs-wallet>randombytes": true
+      }
+    },
+    "browserify>crypto-browserify>public-encrypt>browserify-rsa": {
+      "packages": {
+        "bn.js": true,
+        "browserify>buffer": true,
+        "ethereumjs-wallet>randombytes": true
+      }
+    },
+    "browserify>crypto-browserify>public-encrypt>parse-asn1": {
+      "packages": {
+        "browserify>buffer": true,
+        "browserify>crypto-browserify>browserify-cipher>evp_bytestokey": true,
+        "browserify>crypto-browserify>pbkdf2": true,
+        "browserify>crypto-browserify>public-encrypt>parse-asn1>asn1.js": true,
+        "ethereumjs-util>ethereum-cryptography>browserify-aes": true
+      }
+    },
+    "browserify>crypto-browserify>public-encrypt>parse-asn1>asn1.js": {
+      "packages": {
+        "bn.js": true,
+        "browserify>buffer": true,
+        "browserify>vm-browserify": true,
+        "hdkey>secp256k1>elliptic>minimalistic-assert": true,
+        "pumpify>inherits": true
+      }
+    },
+    "browserify>crypto-browserify>randomfill": {
+      "globals": {
+        "crypto": true,
+        "msCrypto": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "ethereumjs-wallet>randombytes": true,
+        "hdkey>safe-buffer": true
+      }
+    },
+    "browserify>events": {
+      "globals": {
+        "console": true
+      }
+    },
+    "browserify>os-browserify": {
+      "globals": {
+        "location": true,
+        "navigator": true
+      }
+    },
+    "browserify>path-browserify": {
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "browserify>process": {
+      "globals": {
+        "clearTimeout": true,
+        "setTimeout": true
+      }
+    },
+    "browserify>punycode": {
+      "globals": {
+        "define": true
+      }
+    },
+    "browserify>stream-browserify": {
+      "packages": {
+        "browserify>events": true,
+        "pumpify>inherits": true,
+        "readable-stream": true
+      }
+    },
+    "browserify>string_decoder": {
+      "packages": {
+        "hdkey>safe-buffer": true
+      }
+    },
+    "browserify>timers-browserify": {
+      "globals": {
+        "clearInterval": true,
+        "clearTimeout": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "browserify>url": {
+      "packages": {
+        "browserify>punycode": true,
+        "browserify>querystring-es3": true
+      }
+    },
+    "browserify>util": {
+      "globals": {
+        "console.error": true,
+        "console.log": true,
+        "console.trace": true,
+        "process": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "browserify>util>inherits": true
+      }
+    },
+    "browserify>vm-browserify": {
+      "globals": {
+        "document.body.appendChild": true,
+        "document.body.removeChild": true,
+        "document.createElement": true
+      }
+    },
+    "classnames": {
+      "globals": {
+        "classNames": "write",
+        "define": true
+      }
+    },
+    "depcheck>@vue/compiler-sfc>postcss>nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "dependency-tree>precinct>detective-postcss>postcss>nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "eth-keyring-controller>browser-passworder": {
+      "globals": {
+        "crypto": true
+      }
+    },
+    "ethereumjs-util>create-hash": {
+      "packages": {
+        "addons-linter>sha.js": true,
+        "ethereumjs-util>create-hash>cipher-base": true,
+        "ethereumjs-util>create-hash>md5.js": true,
+        "ethereumjs-util>create-hash>ripemd160": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>create-hash>cipher-base": {
+      "packages": {
+        "browserify>stream-browserify": true,
+        "browserify>string_decoder": true,
+        "hdkey>safe-buffer": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>create-hash>md5.js": {
+      "packages": {
+        "ethereumjs-util>create-hash>md5.js>hash-base": true,
+        "hdkey>safe-buffer": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>create-hash>md5.js>hash-base": {
+      "packages": {
+        "ethereumjs-util>create-hash>md5.js>hash-base>readable-stream": true,
+        "hdkey>safe-buffer": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>create-hash>md5.js>hash-base>readable-stream": {
+      "packages": {
+        "@storybook/api>util-deprecate": true,
+        "browserify>browser-resolve": true,
+        "browserify>buffer": true,
+        "browserify>events": true,
+        "browserify>process": true,
+        "browserify>string_decoder": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>create-hash>ripemd160": {
+      "packages": {
+        "browserify>buffer": true,
+        "ethereumjs-util>create-hash>md5.js>hash-base": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>ethereum-cryptography>browserify-aes": {
+      "packages": {
+        "browserify>buffer": true,
+        "browserify>crypto-browserify>browserify-cipher>evp_bytestokey": true,
+        "ethereumjs-util>create-hash>cipher-base": true,
+        "ethereumjs-util>ethereum-cryptography>browserify-aes>buffer-xor": true,
+        "hdkey>safe-buffer": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-util>ethereum-cryptography>browserify-aes>buffer-xor": {
+      "packages": {
+        "browserify>buffer": true
+      }
+    },
+    "ethereumjs-util>ethereum-cryptography>hash.js": {
+      "packages": {
+        "hdkey>secp256k1>elliptic>minimalistic-assert": true,
+        "pumpify>inherits": true
+      }
+    },
+    "ethereumjs-wallet>randombytes": {
+      "globals": {
+        "crypto": true,
+        "msCrypto": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "hdkey>safe-buffer": true
+      }
+    },
+    "ethers>@ethersproject/random": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "ethjs-query>babel-runtime": {
+      "packages": {
+        "@babel/runtime": true,
+        "@storybook/api>regenerator-runtime": true,
+        "ethjs-query>babel-runtime>core-js": true
+      }
+    },
+    "ethjs-query>babel-runtime>core-js": {
+      "globals": {
+        "__e": "write",
+        "__g": "write"
+      }
+    },
+    "hdkey>safe-buffer": {
+      "packages": {
+        "browserify>buffer": true
+      }
+    },
+    "hdkey>secp256k1>elliptic": {
+      "packages": {
+        "bn.js": true,
+        "ethereumjs-util>ethereum-cryptography>hash.js": true,
+        "hdkey>secp256k1>elliptic>brorand": true,
+        "hdkey>secp256k1>elliptic>hmac-drbg": true,
+        "hdkey>secp256k1>elliptic>minimalistic-assert": true,
+        "hdkey>secp256k1>elliptic>minimalistic-crypto-utils": true,
+        "pumpify>inherits": true
+      }
+    },
+    "hdkey>secp256k1>elliptic>brorand": {
+      "globals": {
+        "crypto": true,
+        "msCrypto": true
+      },
+      "packages": {
+        "browserify>browser-resolve": true
+      }
+    },
+    "hdkey>secp256k1>elliptic>hmac-drbg": {
+      "packages": {
+        "ethereumjs-util>ethereum-cryptography>hash.js": true,
+        "hdkey>secp256k1>elliptic>minimalistic-assert": true,
+        "hdkey>secp256k1>elliptic>minimalistic-crypto-utils": true
+      }
+    },
+    "lodash": {
+      "globals": {
+        "clearTimeout": true,
+        "define": true,
+        "setTimeout": true
+      }
+    },
+    "nanoid": {
+      "globals": {
+        "crypto.getRandomValues": true
+      }
+    },
+    "node-fetch": {
+      "globals": {
+        "Headers": true,
+        "Request": true,
+        "Response": true,
+        "fetch": true
+      }
+    },
+    "prop-types": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "prop-types>react-is": true,
+        "react>object-assign": true
+      }
+    },
+    "prop-types>react-is": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "prop-types": true,
+        "react>object-assign": true
+      }
+    },
+    "react-devtools": {
+      "packages": {
+        "react-devtools>react-devtools-core": true
+      }
+    },
+    "react-devtools>react-devtools-core": {
+      "globals": {
+        "WebSocket": true,
+        "setTimeout": true
+      }
+    },
+    "react-dnd-html5-backend": {
+      "globals": {
+        "addEventListener": true,
+        "clearTimeout": true,
+        "removeEventListener": true
+      }
+    },
+    "react-dom": {
+      "globals": {
+        "HTMLIFrameElement": true,
+        "MSApp": true,
+        "__REACT_DEVTOOLS_GLOBAL_HOOK__": true,
+        "addEventListener": true,
+        "clearTimeout": true,
+        "clipboardData": true,
+        "console": true,
+        "dispatchEvent": true,
+        "document": true,
+        "event": "write",
+        "jest": true,
+        "location.protocol": true,
+        "navigator.userAgent.indexOf": true,
+        "performance": true,
+        "removeEventListener": true,
+        "self": true,
+        "setTimeout": true,
+        "top": true,
+        "trustedTypes": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "prop-types": true,
+        "react": true,
+        "react-dom>scheduler": true,
+        "react>object-assign": true
+      }
+    },
+    "react-dom>scheduler": {
+      "globals": {
+        "MessageChannel": true,
+        "cancelAnimationFrame": true,
+        "clearTimeout": true,
+        "console": true,
+        "navigator": true,
+        "performance": true,
+        "requestAnimationFrame": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react-inspector": {
+      "globals": {
+        "Node.CDATA_SECTION_NODE": true,
+        "Node.COMMENT_NODE": true,
+        "Node.DOCUMENT_FRAGMENT_NODE": true,
+        "Node.DOCUMENT_NODE": true,
+        "Node.DOCUMENT_TYPE_NODE": true,
+        "Node.ELEMENT_NODE": true,
+        "Node.PROCESSING_INSTRUCTION_NODE": true,
+        "Node.TEXT_NODE": true
+      },
+      "packages": {
+        "ethjs-query>babel-runtime": true,
+        "prop-types": true,
+        "react": true,
+        "react-inspector>is-dom": true
+      }
+    },
+    "react-inspector>is-dom": {
+      "globals": {
+        "Node": true
+      },
+      "packages": {
+        "@lavamoat/snow>is-cross-origin>is-window": true,
+        "proxyquire>fill-keys>is-object": true
+      }
+    },
+    "react-markdown": {
+      "globals": {
+        "console.warn": true
+      },
+      "packages": {
+        "prop-types": true,
+        "react": true,
+        "react-markdown>comma-separated-tokens": true,
+        "react-markdown>property-information": true,
+        "react-markdown>react-is": true,
+        "react-markdown>remark-parse": true,
+        "react-markdown>remark-rehype": true,
+        "react-markdown>space-separated-tokens": true,
+        "react-markdown>style-to-object": true,
+        "react-markdown>unified": true,
+        "react-markdown>unist-util-visit": true,
+        "react-markdown>vfile": true
+      }
+    },
+    "react-markdown>property-information": {
+      "packages": {
+        "watchify>xtend": true
+      }
+    },
+    "react-markdown>react-is": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react-markdown>remark-parse": {
+      "packages": {
+        "react-markdown>remark-parse>mdast-util-from-markdown": true
+      }
+    },
+    "react-markdown>remark-parse>mdast-util-from-markdown": {
+      "packages": {
+        "react-markdown>remark-parse>mdast-util-from-markdown>mdast-util-to-string": true,
+        "react-markdown>remark-parse>mdast-util-from-markdown>micromark": true,
+        "react-markdown>remark-parse>mdast-util-from-markdown>parse-entities": true,
+        "react-markdown>vfile>unist-util-stringify-position": true
+      }
+    },
+    "react-markdown>remark-parse>mdast-util-from-markdown>micromark": {
+      "packages": {
+        "react-markdown>remark-parse>mdast-util-from-markdown>parse-entities": true
+      }
+    },
+    "react-markdown>remark-parse>mdast-util-from-markdown>parse-entities": {
+      "globals": {
+        "document.createElement": true
+      }
+    },
+    "react-markdown>remark-rehype": {
+      "packages": {
+        "react-markdown>remark-rehype>mdast-util-to-hast": true
+      }
+    },
+    "react-markdown>remark-rehype>mdast-util-to-hast": {
+      "globals": {
+        "console.warn": true
+      },
+      "packages": {
+        "react-markdown>remark-rehype>mdast-util-to-hast>mdast-util-definitions": true,
+        "react-markdown>remark-rehype>mdast-util-to-hast>mdurl": true,
+        "react-markdown>remark-rehype>mdast-util-to-hast>unist-builder": true,
+        "react-markdown>remark-rehype>mdast-util-to-hast>unist-util-generated": true,
+        "react-markdown>remark-rehype>mdast-util-to-hast>unist-util-position": true,
+        "react-markdown>unist-util-visit": true
+      }
+    },
+    "react-markdown>remark-rehype>mdast-util-to-hast>mdast-util-definitions": {
+      "packages": {
+        "react-markdown>unist-util-visit": true
+      }
+    },
+    "react-markdown>style-to-object": {
+      "packages": {
+        "react-markdown>style-to-object>inline-style-parser": true
+      }
+    },
+    "react-markdown>unified": {
+      "packages": {
+        "jsdom>request>extend": true,
+        "react-markdown>unified>bail": true,
+        "react-markdown>unified>is-buffer": true,
+        "react-markdown>unified>is-plain-obj": true,
+        "react-markdown>unified>trough": true,
+        "react-markdown>vfile": true
+      }
+    },
+    "react-markdown>unist-util-visit": {
+      "packages": {
+        "react-markdown>unist-util-visit>unist-util-visit-parents": true
+      }
+    },
+    "react-markdown>unist-util-visit>unist-util-visit-parents": {
+      "packages": {
+        "react-markdown>unist-util-visit>unist-util-is": true
+      }
+    },
+    "react-markdown>vfile": {
+      "packages": {
+        "browserify>path-browserify": true,
+        "browserify>process": true,
+        "react-markdown>vfile>is-buffer": true,
+        "react-markdown>vfile>vfile-message": true,
+        "vinyl>replace-ext": true
+      }
+    },
+    "react-markdown>vfile>vfile-message": {
+      "packages": {
+        "react-markdown>vfile>unist-util-stringify-position": true
+      }
+    },
+    "react-otp-input": {
+      "globals": {
+        "console.error": true,
+        "console.log": true
+      },
+      "packages": {
+        "react": true
+      }
+    },
+    "react-redux": {
+      "globals": {
+        "console": true,
+        "document": true
+      },
+      "packages": {
+        "@babel/runtime": true,
+        "browserify>process": true,
+        "prop-types": true,
+        "prop-types>react-is": true,
+        "react": true,
+        "react-dom": true,
+        "react-redux>hoist-non-react-statics": true,
+        "redux": true
+      }
+    },
+    "react-redux>hoist-non-react-statics": {
+      "packages": {
+        "prop-types>react-is": true
+      }
+    },
+    "react-router-dom": {
+      "packages": {
+        "browserify>process": true,
+        "prop-types": true,
+        "react": true,
+        "react-router-dom>history": true,
+        "react-router-dom>react-router": true,
+        "react-router-dom>tiny-invariant": true,
+        "react-router-dom>tiny-warning": true
+      }
+    },
+    "react-router-dom>history": {
+      "globals": {
+        "addEventListener": true,
+        "confirm": true,
+        "document": true,
+        "history": true,
+        "location": true,
+        "navigator.userAgent": true,
+        "removeEventListener": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "react-router-dom>history>resolve-pathname": true,
+        "react-router-dom>history>value-equal": true,
+        "react-router-dom>tiny-invariant": true,
+        "react-router-dom>tiny-warning": true
+      }
+    },
+    "react-router-dom>history>resolve-pathname": {
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react-router-dom>history>value-equal": {
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react-router-dom>react-router": {
+      "packages": {
+        "browserify>process": true,
+        "prop-types": true,
+        "prop-types>react-is": true,
+        "react": true,
+        "react-redux>hoist-non-react-statics": true,
+        "react-router-dom>react-router>history": true,
+        "react-router-dom>react-router>mini-create-react-context": true,
+        "react-router-dom>tiny-invariant": true,
+        "react-router-dom>tiny-warning": true,
+        "sinon>nise>path-to-regexp": true
+      }
+    },
+    "react-router-dom>react-router>history": {
+      "globals": {
+        "addEventListener": true,
+        "confirm": true,
+        "document": true,
+        "history": true,
+        "location": true,
+        "navigator.userAgent": true,
+        "removeEventListener": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "react-router-dom>history>resolve-pathname": true,
+        "react-router-dom>history>value-equal": true,
+        "react-router-dom>tiny-invariant": true,
+        "react-router-dom>tiny-warning": true
+      }
+    },
+    "react-router-dom>react-router>mini-create-react-context": {
+      "packages": {
+        "@babel/runtime": true,
+        "browserify>process": true,
+        "prop-types": true,
+        "react": true,
+        "react-router-dom>react-router>mini-create-react-context>gud": true,
+        "react-router-dom>tiny-warning": true
+      }
+    },
+    "react-router-dom>tiny-invariant": {
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react-router-dom>tiny-warning": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "react-tippy": {
+      "globals": {
+        "Element": true,
+        "MSStream": true,
+        "MutationObserver": true,
+        "addEventListener": true,
+        "clearTimeout": true,
+        "console.error": true,
+        "console.warn": true,
+        "define": true,
+        "document": true,
+        "getComputedStyle": true,
+        "innerHeight": true,
+        "innerWidth": true,
+        "navigator.maxTouchPoints": true,
+        "navigator.msMaxTouchPoints": true,
+        "navigator.userAgent": true,
+        "performance": true,
+        "requestAnimationFrame": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "react": true,
+        "react-dom": true,
+        "react-tippy>popper.js": true
+      }
+    },
+    "react-tippy>popper.js": {
+      "globals": {
+        "MSInputMethodContext": true,
+        "Node.DOCUMENT_POSITION_FOLLOWING": true,
+        "cancelAnimationFrame": true,
+        "console.warn": true,
+        "define": true,
+        "devicePixelRatio": true,
+        "document": true,
+        "getComputedStyle": true,
+        "innerHeight": true,
+        "innerWidth": true,
+        "navigator.userAgent": true,
+        "requestAnimationFrame": true,
+        "setTimeout": true
+      }
+    },
+    "react-toggle-button": {
+      "globals": {
+        "clearTimeout": true,
+        "console.warn": true,
+        "define": true,
+        "performance": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "react": true
+      }
+    },
+    "readable-stream": {
+      "packages": {
+        "@storybook/api>util-deprecate": true,
+        "browserify>browser-resolve": true,
+        "browserify>events": true,
+        "browserify>process": true,
+        "browserify>timers-browserify": true,
+        "pumpify>inherits": true,
+        "readable-stream>core-util-is": true,
+        "readable-stream>isarray": true,
+        "readable-stream>process-nextick-args": true,
+        "readable-stream>safe-buffer": true,
+        "readable-stream>string_decoder": true
+      }
+    },
+    "readable-stream>core-util-is": {
+      "packages": {
+        "browserify>insert-module-globals>is-buffer": true
+      }
+    },
+    "readable-stream>process-nextick-args": {
+      "packages": {
+        "browserify>process": true
+      }
+    },
+    "readable-stream>safe-buffer": {
+      "packages": {
+        "browserify>buffer": true
+      }
+    },
+    "readable-stream>string_decoder": {
+      "packages": {
+        "readable-stream>safe-buffer": true
+      }
+    },
+    "redux": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "@babel/runtime": true,
+        "browserify>process": true
+      }
+    },
+    "redux-persist": {
+      "globals": {
+        "clearInterval": true,
+        "console.error": true,
+        "console.log": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "browserify>process": true,
+        "react": true,
+        "redux": true
+      }
+    },
+    "sinon>nise>path-to-regexp": {
+      "packages": {
+        "sinon>nise>path-to-regexp>isarray": true
+      }
+    },
+    "vinyl>replace-ext": {
+      "packages": {
+        "browserify>path-browserify": true
+      }
+    },
+    "web3": {
+      "globals": {
+        "XMLHttpRequest": true
+      }
+    },
+    "webextension-polyfill": {
+      "globals": {
+        "browser": true,
+        "chrome": true,
+        "console.error": true,
+        "console.warn": true,
+        "define": true
+      }
+    }
+  }
+}

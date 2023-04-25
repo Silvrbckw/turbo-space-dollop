@@ -1,0 +1,16 @@
+# Package Managers
+.env
+node_modules
+
+# Output
+dist
+packages
+build/windows/test_certificate.pfx
+src/ui/css/output
+src/popup-ui/css/output
+
+# Config
+.metamaskrc
+
+# Testing
+test/results
