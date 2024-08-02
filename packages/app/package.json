@@ -279,7 +279,7 @@
     "@types/end-of-stream": "^1.4.1",
     "@types/fs-extra": "^9.0.13",
     "@types/gulp": "^4.0.9",
-    "@types/gulp-autoprefixer": "^0.0.33",
+    "@types/gulp-autoprefixer": "^0.0.37",
     "@types/gulp-dart-sass": "^1.0.1",
     "@types/gulp-sourcemaps": "^0.0.35",
     "@types/hdkey": "^2.0.1",
