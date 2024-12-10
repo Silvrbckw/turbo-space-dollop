@@ -180,7 +180,7 @@
     "loglevel": "^1.8.1",
     "luxon": "^3.2.1",
     "memoizee": "^0.4.15",
-    "nanoid": "^2.1.6",
+    "nanoid": "^3.0.0",
     "nonce-tracker": "^1.0.0",
     "obj-multiplex": "^1.0.0",
     "pify": "^5.0.0",
