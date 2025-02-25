@@ -72,7 +72,7 @@
     "@formatjs/intl-relativetimeformat": "^5.2.6",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@keystonehq/bc-ur-registry-eth": "^0.12.1",
-    "@keystonehq/metamask-airgapped-keyring": "^0.6.1",
+    "@keystonehq/metamask-airgapped-keyring": "^0.15.0",
     "@lavamoat/snow": "^1.4.1",
     "@ledgerhq/hw-app-eth": "^6.29.8",
     "@ledgerhq/hw-transport-node-hid-noevents": "^6.27.5",
