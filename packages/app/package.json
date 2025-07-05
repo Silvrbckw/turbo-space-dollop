@@ -190,7 +190,7 @@
     "pubnub": "4.27.3",
     "pump": "^3.0.0",
     "punycode": "^2.1.1",
-    "qrcode-generator": "1.4.1",
+    "qrcode-generator": "1.5.2",
     "qrcode.react": "^1.0.1",
     "react": "^16.12.0",
     "react-dnd": "^3.0.2",
