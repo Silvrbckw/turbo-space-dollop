@@ -126,7 +126,7 @@
     "lockfile-lint-api@^5.4.6": "patch:lockfile-lint-api@npm%3A5.4.6#./.yarn/patches/lockfile-lint-api-npm-5.4.6-dc86b73900.patch",
     "luxon@^3.0.1": "patch:luxon@npm%3A3.2.1#./.yarn/patches/luxon-npm-3.2.1-56f8d97395.patch",
     "luxon@^3.2.1": "patch:luxon@npm%3A3.2.1#./.yarn/patches/luxon-npm-3.2.1-56f8d97395.patch",
-    "minimatch@3.0.4": "^3.0.5",
+    "minimatch@3.0.4": "^5.0.0",
     "netmask": "^2.0.1",
     "object.values@^1.1.5": "patch:object.values@npm%3A1.1.5#./.yarn/patches/object.values-npm-1.1.5-f1de7f3742.patch",
     "object.values@^1.1.0": "patch:object.values@npm%3A1.1.5#./.yarn/patches/object.values-npm-1.1.5-f1de7f3742.patch",
